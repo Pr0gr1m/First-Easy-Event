@@ -4,7 +4,7 @@ import java.awt.event.*;
 // Java Project
 
 class event_testing implements ActionListener{ //If you want to control event, you must implements this interface; ActionListener
-    JButton button = new JButton("Not clicked :-("); //Remembar; this button MUST be here
+    JButton button = new JButton("Not clicked :-("); //Remembar; this button MUST be here  
     public void go(){
         JFrame frame = new JFrame();
         button.addActionListener(this); //if you want you can put the class here. This = you must have void; actionPerfomed, where you can control what happend if you click this button
